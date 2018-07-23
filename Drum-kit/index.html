@@ -8,47 +8,58 @@
 </head>
 
 <body>
-    <div class="header">
-        <div id="header-title">DRUM KIT</div>
-    </div>
+    <div id="header">DRUM KIT</div>
+    <div id="message"></div>
     <div id="drum-kit-area">
-        <div class="drum-kit">
-            <div class="drum-key">A</div>
-            <div class="drum-sound">CLAP</div>
+        <div class="drum-kit" data-value="65">
+            <b class="drum-key">A</b>
+            <b class="drum-sound">CLAP</b>
         </div>
-        <div class="drum-kit">
-            <div class="drum-key">S</div>
-            <div class="drum-sound">HIHAT</div>
+        <div class="drum-kit" data-value="83">
+            <b class="drum-key">S</b>
+            <b class="drum-sound">HIHAT</b>
         </div>
-        <div class="drum-kit">
-            <div class="drum-key">D</div>
-            <div class="drum-sound">KICK</div>
+        <div class="drum-kit" data-value="68">
+            <b class="drum-key">D</b>
+            <b class="drum-sound">KICK</b>
         </div>
-        <div class="drum-kit">
-            <div class="drum-key">F</div>
-            <div class="drum-sound">OPENHAT</div>
+        <div class="drum-kit" data-value="70">
+            <b class="drum-key">F</b>
+            <b class="drum-sound">OPENHAT</b>
         </div>
-        <div class="drum-kit">
-            <div class="drum-key">G</div>
-            <div class="drum-sound">BOOM</div>
+        <div class="drum-kit" data-value="71">
+            <b class="drum-key">G</b>
+            <b class="drum-sound">BOOM</b>
         </div>
-        <div class="drum-kit">
-            <div class="drum-key">H</div>
-            <div class="drum-sound">RIDE</div>
+        <div class="drum-kit" data-value="72">
+            <b class="drum-key">H</b>
+            <b class="drum-sound">RIDE</b>
         </div>
-        <div class="drum-kit">
-            <div class="drum-key">J</div>
-            <div class="drum-sound">SNARE</div>
+        <div class="drum-kit" data-value="74">
+            <b class="drum-key">J</b>
+            <b class="drum-sound">SNARE</b>
         </div>
-        <div class="drum-kit">
-            <div class="drum-key">K</div>
-            <div class="drum-sound">TOM</div>
+        <div class="drum-kit" data-value="75">
+            <b class="drum-key">K</b>
+            <b class="drum-sound">TOM</b>
         </div>
-        <div class="drum-kit">
-            <div class="drum-key">L</div>
-            <div class="drum-sound">TINK</div>
+        <div class="drum-kit" data-value="76">
+            <b class="drum-key">L</b>
+            <b class="drum-sound">TINK</b>
         </div>
     </div>
+
+    <audio data-key="a" src="sounds/clap.wav"></audio>
+    <audio data-key="s" src="sounds/hihat.wav"></audio>
+    <audio data-key="d" src="sounds/kick.wav"></audio>
+    <audio data-key="f" src="sounds/openhat.wav"></audio>
+    <audio data-key="g" src="sounds/boom.wav"></audio>
+    <audio data-key="h" src="sounds/ride.wav"></audio>
+    <audio data-key="j" src="sounds/snare.wav"></audio>
+    <audio data-key="k" src="sounds/tom.wav"></audio>
+    <audio data-key="l" src="sounds/tink.wav"></audio>
+
+    <script type="text/javascript" src="./display.js"></script>
 </body>
 
 </html>
