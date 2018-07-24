@@ -1,0 +1,71 @@
+html {
+    background: url(https://upload.wikimedia.org/wikipedia/he/thumb/1/11/The_Persistence_Of_Memory.jpg/500px-The_Persistence_Of_Memory.jpg);
+    background-size: cover;
+}
+
+#clock-section{
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid rgba(164, 172, 116, 0.591);
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.clock {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+
+.hour-hand {
+    width: 25%;
+    height: 10px;
+    background: black;
+    position: absolute;
+    top: 49.4%;
+    left: 25%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.min-hand {
+    width: 40%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.second-hand {
+    width: 40%;
+    height: 2px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.clock-spot {
+    width: 0.5%;
+    height: 0.5%;
+    background: black;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    border: solid;
+    border-radius: 50%;
+    padding: 10px;
+}
