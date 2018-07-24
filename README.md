@@ -6,4 +6,5 @@
 
 |                            Study                             |  Title   | Commit Day |
 | :----------------------------------------------------------: | :------: | :--------: | 
-| [Day 1](https://github.com/Yongjai/js_30_project/tree/master/Drum-kit/) | Drum-Kit | 2018.07.23 |
+| [Day 1](https://github.com/Yongjai/js_30_project/tree/master/Drum-kit) | Drum Kit | 2018.07.23 |
+| [Day 2](https://github.com/Yongjai/js_30_project/tree/master/CSS%2BJS-Clcok) | CSS + JS Clock | 2018.07.24 |
