@@ -1,0 +1,48 @@
+body {
+    background: url(https://s-i.huffpost.com/gen/2748084/images/n-DEFAULT-628x314.jpg) bottom center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#header {
+    margin-top: 5%;
+    height: 10%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: bisque;
+}
+
+#controller {
+    margin-top: 5%;
+    height: 30%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.spacing-section {
+    margin-left: 10%;
+    width: 20%;
+    height: 50%;
+}
+
+.blur-section {
+    margin-left: 10%;
+    width: 20%;
+    height: 50%;
+}
+
+.color-section {
+    margin-left: 10%;
+    width: 20%;
+    height: 50%;
+}
+
+#playground {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50%;
+    background-color: greenyellow;
+}

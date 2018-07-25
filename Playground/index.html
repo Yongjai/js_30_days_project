@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Playground with CSS and JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">Playground with CSS and JS</div>
+    <div id="controller">
+        <div id="spacing-section">
+            <div>Spacing</div>
+            <input class="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+        </div>
+        <div id="blur-section">
+            <div>Bluring</div>
+            <input class="spacing" type="range" name="bluring" min="10" max="200" value="10" data-sizing="px">
+        </div>
+        <div id="color-section">
+            <div>Coloring</div>
+            <input id="coloring" type="color" name="base" value="#ffc600">
+        </div>
+    </div>
+    <div id="playground">
+        <div class="background">
+            <div class=""></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./display.js"></script>
+</body>
+
+</html>
