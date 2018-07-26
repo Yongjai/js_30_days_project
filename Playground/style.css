@@ -1,48 +1,66 @@
+:root {
+    --coloring: brown;
+    --spacing: 5px;
+    --blurring: 1px;
+}
+
 body {
-    background: url(https://s-i.huffpost.com/gen/2748084/images/n-DEFAULT-628x314.jpg) bottom center;
+    background: url(https://macinjune.com/wp-content/uploads/2018/06/macos-mojave-wallpaper_1.png) bottom center;
     height: 100vh;
     overflow: hidden;
 }
 
-#header {
-    margin-top: 5%;
-    height: 10%;
-    width: 100%;
-    font-size: 30px;
+h2 {
+    color: white;
+    font-size: 70px;
     text-align: center;
-    background-color: bisque;
 }
 
-#controller {
-    margin-top: 5%;
-    height: 30%;
-    width: 100%;
-    background-color: aquamarine;
-    display: flex;
+p {
+    font-size: 20px;
+    color: white;
 }
 
-.spacing-section {
-    margin-left: 10%;
-    width: 20%;
+#controller-area {
+    margin-top: 3%;
+    height: 15%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.557);
+}
+
+.controller {
+    margin-left: 2.25%;
+    width: 30%;
     height: 50%;
+    float: left;
+    text-align: center;
 }
 
-.blur-section {
-    margin-left: 10%;
-    width: 20%;
-    height: 50%;
+input {
+    width: 100px;
 }
 
-.color-section {
-    margin-left: 10%;
-    width: 20%;
-    height: 50%;
+.controller:last-child {
+    margin-right: 2.25%;
+}
+
+.coloring {
+    color: var(--coloring);
 }
 
 #playground {
     margin-top: 3%;
     margin-left: 10%;
+    margin-right: 10%;
     width: 80%;
     height: 50%;
-    background-color: greenyellow;
+    text-align: center;
+}
+
+img {
+    padding: var(--spacing);
+    filter: blur(var(--blurring));
+    background: var(--coloring);
 }

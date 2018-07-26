@@ -8,25 +8,27 @@
 </head>
 
 <body>
-    <div id="header">Playground with CSS and JS</div>
-    <div id="controller">
-        <div id="spacing-section">
-            <div>Spacing</div>
-            <input class="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+    <h2>Playground with
+        <span class='coloring'>CSS</span>
+        and
+        <span class='coloring'>JS</span>
+    </h2>
+    <div id="controller-area">
+        <div class="controller">
+            <p>Spacing</p>
+            <input class="spacing" type="range" name="spacing" min="0" max="200" value="10" data-sizing="px">
         </div>
-        <div id="blur-section">
-            <div>Bluring</div>
-            <input class="spacing" type="range" name="bluring" min="10" max="200" value="10" data-sizing="px">
+        <div class="controller">
+            <p>Bluring</p>
+            <input class="blurring" type="range" name="blurring" min="0" max="25" value="10" data-sizing="px">
         </div>
-        <div id="color-section">
-            <div>Coloring</div>
-            <input id="coloring" type="color" name="base" value="#ffc600">
+        <div class="controller">
+            <p>Coloring</p>
+            <input class="coloring" type="color" name="coloring" value="#ffc600">
         </div>
     </div>
     <div id="playground">
-        <div class="background">
-            <div class=""></div>
-        </div>
+        <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
     </div>
 
     <script type="text/javascript" src="./display.js"></script>
