@@ -97,7 +97,7 @@ const lives = inventors.reduce((total, inventor) => {
 console.log(lives);
 
 // 5. Sort the inventors by years lived
-const oldest = inventors.sort( (a, b) => {
+const oldest = inventors.sort((a, b) => {
     const c = a.passed - a.year;
     const d = b.passed - b.year;
     return c - d
@@ -109,7 +109,7 @@ console.log(oldest);
 
 // 7. sort Exercise
 // Sort the people alphabetically by last name
-const lastNames = inventors.sort( (a, b) => {
+const lastNames = inventors.sort((a, b) => {
     const c = a.last.toLowerCase();
     const d = b.last.toLowerCase();
 

@@ -21,4 +21,5 @@
 | [Day 1](https://github.com/Yongjai/js_30_project/tree/master/Drum-kit) | Drum Kit | 2018.07.23 |
 | [Day 2](https://github.com/Yongjai/js_30_project/tree/master/CSS%2BJS-Clcok) | CSS + JS Clock | 2018.07.24 |
 | [Day 3](https://github.com/Yongjai/js_30_project/tree/master/Playground) | Playground | 2018.07.26 |
+| [Day 4](https://github.com/Yongjai/js_30_project/tree/master/Array-Cardio) | Array Cardio | 2018.7.27 |
 
