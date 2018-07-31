@@ -14,4 +14,5 @@
 | [Day 4](https://github.com/Yongjai/js_30_project/tree/master/Array-Cardio) | Array Cardio | 2018.07.27 |  |  |
 | [Day 5](https://github.com/Yongjai/js_30_project/tree/master/Flex-Panels-Image-Gallery) | Flex Panels Image Gallery | 2018.07.28 |  |  |
 | [Day 6](https://github.com/Yongjai/js_30_project/tree/master/Ajax-Type-Ahead) | Ajax Type Ahead | 2018.07.29 |  |  |
+| [Day 7](https://github.com/Yongjai/js_30_project/tree/master/Array-Cardio2) | Array Cardio 2 | 2018.07.31 |  |  |
 
