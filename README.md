@@ -17,4 +17,5 @@
 | [Day 7](https://github.com/Yongjai/js_30_project/tree/master/Array-Cardio2) | Array Cardio 2 | 2018.07.31 |  |  |
 | [Day 8](https://github.com/Yongjai/js_30_project/tree/master/HTML5-Canvas) | HTML5 Canvas | 2018.08.02 |  |  |
 | [Day 9](https://github.com/Yongjai/js_30_project/tree/master/Tricks) | Dev Tool Tricks | 2018.08.03 | | |
+| [Day 10](https://github.com/Yongjai/js_30_project/tree/master/Shift-Checkbox) | Shift Checkbox | 2018.08.04 | | |
 
