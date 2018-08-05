@@ -7,7 +7,7 @@
 * 빠른 시일 내에 각 주제를 진행하면서 새롭게 배우거나 중요하다고 생각하는 부분을 정리할 예정입니다.
 
 |                            Study                             |  Title   | Commit Day | Summary | Result Image |
-| :----------------------------------------------------------: | :------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| :----------------------------------------------------------- | :------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [Day 1](https://github.com/Yongjai/js_30_project/tree/master/Drum-kit) | Drum Kit | 2018.07.23 |  |  |
 | [Day 2](https://github.com/Yongjai/js_30_project/tree/master/CSS%2BJS-Clcok) | CSS + JS Clock | 2018.07.24 |  |  |
 | [Day 3](https://github.com/Yongjai/js_30_project/tree/master/Playground) | Playground | 2018.07.26 |  |  |
@@ -18,4 +18,5 @@
 | [Day 8](https://github.com/Yongjai/js_30_project/tree/master/HTML5-Canvas) | HTML5 Canvas | 2018.08.02 |  |  |
 | [Day 9](https://github.com/Yongjai/js_30_project/tree/master/Tricks) | Dev Tool Tricks | 2018.08.03 | | |
 | [Day 10](https://github.com/Yongjai/js_30_project/tree/master/Shift-Checkbox) | Shift Checkbox | 2018.08.04 | | |
+| [Day 11](https://github.com/Yongjai/js_30_project/tree/master/Video-Player) | Video Player | 2018.08.05 | | |
 
