@@ -19,4 +19,5 @@
 | [Day 9](https://github.com/Yongjai/js_30_project/tree/master/Tricks) | Dev Tool Tricks | 2018.08.03 | | |
 | [Day 10](https://github.com/Yongjai/js_30_project/tree/master/Shift-Checkbox) | Shift Checkbox | 2018.08.04 | | |
 | [Day 11](https://github.com/Yongjai/js_30_project/tree/master/Video-Player) | Video Player | 2018.08.05 | | |
+| [Day 12](https://github.com/Yongjai/js_30_project/tree/master/Key-Detection) | Key Detection | 2018.08.07 | | |
 
