@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Key Detection</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="title">
+        Something happens when you press the key "yongjai"!
+    </div>
+</body>
+<script>
+    const texts = document.querySelector('.title');
+    const pressed = [];
+    const secretCode = 'yongjai';
+    
+    window.addEventListener('keyup', (e) => {
+        pressed.push(e.key);
+        pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+        if (pressed.join('').includes(secretCode)) {
+            texts.classList.add("change-title");
+        }
+    });
+</script>
+
+</html>
